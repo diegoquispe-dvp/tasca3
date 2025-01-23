@@ -4,6 +4,8 @@
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:enableOnBackInvokedCallback="true"> <!-- Field Opt-in for the predictive back gesture in Android 13 for tasca3 -->
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                    android:value="AIzaSyDtykhVlX_cH49jEKJiu5WDO8xpWe7e0rI"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
